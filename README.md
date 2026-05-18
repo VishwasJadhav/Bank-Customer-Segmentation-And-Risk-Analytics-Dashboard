@@ -20,25 +20,25 @@ The dashboard is designed with a professional banking-focused UI and emphasizes 
 
 ## Executive Overview
 
-![Executive Overview](Dashboard/Page1-Overview.png)
+![Executive Overview](screenshots/overview.png)
 
 ---
 
 ## Customer Analysis
 
-![Customer Analysis](Dashboard/Page2-Customer_Analysis.png)
+![Customer Analysis](screenshots/customer_analysis.png)
 
 ---
 
 ## Customer Segmentation Analysis
 
-![Customer Segmentation](Dashboard/Page3-Segmentation.png)
+![Customer Segmentation](screenshots/segmentation.png)
 
 ---
 
 ## Risk & Revenue Analysis
 
-![Risk & Revenue](Dashboard/Page4-Risk and Revenue.png)
+![Risk & Revenue](screenshots/risk_revenue.png)
 
 ---
 
