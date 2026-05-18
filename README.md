@@ -20,13 +20,13 @@ The dashboard is designed with a professional banking-focused UI and emphasizes 
 
 ## Executive Overview
 
-![Executive Overview](screenshots/overview.png)
+![Executive Overview](Dashboard/Page1-Overview.png)
 
 ---
 
 ## Customer Analysis
 
-![Customer Analysis](screenshots/customer_analysis.png)
+![Customer Analysis](Dashboard/Customer_Analysis.png)
 
 ---
 
