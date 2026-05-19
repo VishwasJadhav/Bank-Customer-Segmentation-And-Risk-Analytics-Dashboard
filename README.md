@@ -1,4 +1,6 @@
 # Bank Customer Segmentation & Risk Analytics Dashboard
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?logo=powerbi)
+![DAX](https://img.shields.io/badge/DAX-Analytics-blue)
 
 ## Project Overview
 
@@ -380,5 +382,3 @@ The dashboard provides a complete analytical view of:
 - Retention monitoring
 
 It is designed to support data-driven decision-making for banking and financial analytics use cases.
-
----
