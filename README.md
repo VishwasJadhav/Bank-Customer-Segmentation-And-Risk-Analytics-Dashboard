@@ -42,6 +42,16 @@ The project combines:
 
 ---
 
+# Power BI Dashboard File
+
+The complete Power BI dashboard file is available inside:
+
+[Bank Customer Segmentation.pbix](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Dashboard/Bank%20Customer%20Segmentation.pbix)
+
+Download and open using Microsoft Power BI Desktop.
+
+---
+
 # Business Problem
 
 Banks generate massive volumes of customer transaction data, but identifying meaningful customer patterns and risk exposure remains a major challenge.
