@@ -20,25 +20,25 @@ The project combines:
 
 ## Executive Overview
 
-![Executive Overview](Images/Page 1 - Overview.png)
+![Executive Overview](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Images/Page%201%20-%20Overview.png)
 
 ---
 
 ## Customer Analysis
 
-![Customer Analysis](Images/Page 2 - Customer Analysis.png)
+![Customer Analysis](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Images/Page%202%20-%20Customer%20Analysis.png)
 
 ---
 
 ## Customer Segmentation Analysis
 
-![Customer Segmentation](Images/Page 3 - Customer Segmentation.png)
+![Customer Segmentation](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Images/Page%203%20-%20Customer%20Segmentation.png)
 
 ---
 
 ## Risk & Revenue Analysis
 
-![Risk & Revenue](Images/Page 4 - Risk and Revenue.png)
+![Risk & Revenue](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Images/Page%204%20-%20Risk%20and%20Revenue.png))
 
 ---
 
