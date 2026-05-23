@@ -20,25 +20,25 @@ The project combines:
 
 ## Executive Overview
 
-![Executive Overview](Images/Page 1 - Overview.png)
+![Executive Overview](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Images/Page%201%20-%20Overview.png)
 
 ---
 
 ## Customer Analysis
 
-![Customer Analysis](Images/Page 2 - Customer Analysis.png)
+![Customer Analysis](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Images/Page%202%20-%20Customer%20Analysis.png)
 
 ---
 
 ## Customer Segmentation Analysis
 
-![Customer Segmentation](Images/Page 3 - Customer Segmentation.png)
+![Customer Segmentation](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Images/Page%203%20-%20Customer%20Segmentation.png)
 
 ---
 
 ## Risk & Revenue Analysis
 
-![Risk & Revenue](Images/Page 4 - Risk and Revenue.png)
+![Risk & Revenue](https://github.com/VishwasJadhav/Bank-Customer-Segmentation-Dashboard/blob/main/Images/Page%204%20-%20Risk%20and%20Revenue.png))
 
 ---
 
@@ -98,24 +98,46 @@ The dataset contains banking customer transaction and account information, inclu
 
 # Data Cleaning & Preprocessing
 
+# Feature Engineering & Data Transformation
+
+The original dataset contained only 9 raw transaction-level columns and did not include pre-built analytical features such as customer segments, risk profiles, retention indicators, or credit scores.
+
+To develop the analytical model, extensive feature engineering and transformation processes were implemented using Power Query and DAX.
+
+The project involved:
+- Creating 37 calculated columns
+- Building 27 DAX measures
+- Designing RFM scoring logic
+- Developing a behavioural risk scoring framework
+- Creating retention and churn indicators
+- Generating customer segmentation logic
+- Building transaction time intelligence features
+- Creating dynamic KPI calculations
+
+Most analytical dimensions and business metrics used in the dashboard were derived from the raw transactional dataset using custom business logic, feature engineering, and data modeling techniques.
+
+---
+
+# Data Cleaning & Preprocessing
+
 The raw banking dataset required multiple preprocessing and transformation steps before analysis.
 
-The following data cleaning operations were performed using Power Query and DAX:
+The following data preparation operations were performed using Power Query and DAX:
 
 - Handled missing and null values
 - Standardized categorical fields
 - Corrected inconsistent text formatting
-- Converted date columns into proper datetime format
+- Converted date fields into proper datetime formats
 - Created custom age group categories from date of birth
 - Derived transaction time buckets
-- Generated calculated columns for RFM analysis
 - Validated customer transaction records
-- Optimized data types for efficient modeling
+- Optimized data types for efficient modeling and reporting
 
-Additional feature engineering steps included:
-- Credit score categorization
+Additional analytical transformations included:
+- RFM score generation
+- Simulated credit score categorization
 - Risk profile classification
-- Revenue calculations
+- Revenue metric calculations
 - Customer retention indicators
 - Churn-risk identification
 
