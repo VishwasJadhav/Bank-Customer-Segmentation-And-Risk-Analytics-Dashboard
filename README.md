@@ -171,7 +171,7 @@ Used as source datasets.
 
 # Dashboard Pages
 
-# 1. Executive Overview
+## 1. Executive Overview
 
 Provides a high-level business summary including:
 - Total Customers
@@ -190,7 +190,7 @@ Provides a high-level business summary including:
 
 ---
 
-# 2. Customer Analysis
+## 2. Customer Analysis
 
 Analyzes customer demographics and behavioural patterns.
 
@@ -210,7 +210,7 @@ Analyzes customer demographics and behavioural patterns.
 
 ---
 
-# 3. Customer Segmentation Analysis
+## 3. Customer Segmentation Analysis
 
 Implements RFM-based customer segmentation.
 
@@ -236,7 +236,7 @@ Implements RFM-based customer segmentation.
 
 ---
 
-# 4. Risk & Revenue Analysis
+## 4. Risk & Revenue Analysis
 
 Focuses on customer credit quality and revenue exposure.
 
