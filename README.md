@@ -96,8 +96,6 @@ The dataset contains banking customer transaction and account information, inclu
 
 ---
 
-# Data Cleaning & Preprocessing
-
 # Feature Engineering & Data Transformation
 
 The original dataset contained only 9 raw transaction-level columns and did not include pre-built analytical features such as customer segments, risk profiles, retention indicators, or credit scores.
