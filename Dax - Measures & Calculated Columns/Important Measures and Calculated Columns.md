@@ -1,38 +1,39 @@
-# Total Revenue :
+## Total Revenue :
 
+```
 Total Revenue = SUM(Transactions[Transaction Amount])
-
+```
 ---
 
-# Average Transaction Value :
-
+## Average Transaction Value :
+```
 Avg Transaction Value = DIVIDE([Total Revenue], COUNT(Transactions[Transaction ID]))
-
+```
 ---
 
-# Retention Rate :
-
+## Retention Rate :
+```
 Retention Rate % = DIVIDE(
 CALCULATE(COUNT('Customer Summary'[Customer ID]), 'Customer Summary'[RFM Segment] IN {
 "Champions",
 "Loyal Customers",
 "Core Customers"} ), COUNT('Customer Summary'[Customer ID]) )
-
+```
 ---
 
-# Churn Risk % : 
-
+## Churn Risk % : 
+```
 Churn Risk % = COALESCE(
 DIVIDE( CALCULATE(DISTINCTCOUNT('Customer Summary'[Customer ID]),
 'Customer Summary'[RFM Segment] IN 
 {"At Risk",
 "Dormant Customers"}),
 DISTINCTCOUNT('Customer Summary'[Customer ID]) ), 0)
-
+```
 ---
 
-# Credit Score : 
-
+## Credit Score : 
+```
 Weighted Score = (
 'Customer Summary'[Balance Score] * 0.40 +
 'Customer Summary'[Utilization Score] * 0.35 +
@@ -40,11 +41,12 @@ Weighted Score = (
 'Customer Summary'[Age Score] * 0.15 )
 
 Credit Score = 300 +('Customer Summary'[Weighted Score] * 6)
+```
 
 ---
 
-# Credit Category :
-
+## Credit Category :
+```
 Credit Category = 
 SWITCH( TRUE(),
 'Customer Summary'[Credit Score] >= 740, "Excellent",
@@ -52,9 +54,10 @@ SWITCH( TRUE(),
 'Customer Summary'[Credit Score] >= 620, "Good",
 'Customer Summary'[Credit Score] >= 560, "Fair",
 "Poor" )
+```
 
-# Risk Profile : 
-
+## Risk Profile : 
+```
 Risk Profile = 
 SWITCH(TRUE(),
 -- LOW RISK
@@ -64,7 +67,6 @@ SWITCH(TRUE(),
 -- HIGH RISK
 'Customer Summary'[Credit Score] < 530,
 "High Risk",
-
 'Customer Summary'[RFM Segment] IN {
 "At Risk",
 "Dormant Customers"},
@@ -72,11 +74,11 @@ SWITCH(TRUE(),
 
 -- MEDIUM RISK
 "Medium Risk")
-
+```
 ---
 
-# RFM Score Logic : 
-
+## RFM Score Logic : 
+```
 RFM Segment = 
 SWITCH( TRUE(),
 -- Champions
@@ -110,11 +112,12 @@ SWITCH( TRUE(),
 
 -- Default Segment
 "Core Customers" )
-
+```
 ---
 
-# Transaction Time Bucket :
+## Transaction Time Bucket :
 
+```
 Transaction Timeslot = SWITCH( TRUE(),
 Transactions[Transaction Hour] < 6, "Night (12AM - 6AM)",
 Transactions[Transaction Hour] < 10, "Early Morning (6AM - 10AM)",
@@ -122,14 +125,16 @@ Transactions[Transaction Hour] < 14, "Morning (10AM - 2PM)",
 Transactions[Transaction Hour] < 18, "Afternoon (2PM - 6PM)",
 Transactions[Transaction Hour] < 22, "Evening (6PM - 10PM)",
 "Late Night (10PM - 12AM)" )
+```
 
 ---
 
-# Age Group : 
-
+## Age Group : 
+```
 Age Group = SWITCH(TRUE(), 
 'Customer Summary'[Age] < 18, "Under 18", 
 'Customer Summary'[Age] <= 25, "18-25", 
 'Customer Summary'[Age] <= 35, "26-35", 
 'Customer Summary'[Age] <= 45, "36-45", 
 "45-60")
+```
